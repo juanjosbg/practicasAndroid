@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="DarckBlack">#040303</color>
+    <color name="Darck">#191919</color>
+    <color name="Gris">#222831</color>
+
+    <color name="DarckBlue">#2D4263</color>
+    <color name="blueDarck">#064663</color>
+
+    <color name="Verd">#3B5249</color>
+
+    <color name="AmarilloRuss">#ECB365</color>
+    <color name="DarckOrange">#C84B31</color>
+    <color name="AmarilloRoss">#B3541E</color>
+
+    <color name="Piel">#ECDBBA</color>
+    <color name="Blanco">#fff</color>
+</resources>
