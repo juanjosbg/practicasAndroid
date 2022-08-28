@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/Color1">
+
+        <!-- Sub parte -->
+        <RelativeLayout
+            android:layout_marginTop="72dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Gris">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="27dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/Negro"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:text="Votando por el derecho"/>
+
+            <!-- Cedula -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="65dp"
+                android:text="Cedula"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:textColor="@color/Color"/>
+
+            <EditText
+                android:id="@+id/MensajeIngresoCC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="39dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginRight="40dp"
+                android:ems="20"
+                android:inputType="textPersonName"
+                android:text=""
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <!-- Nombre y Apellido-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="65dp"
+                android:text="Nombre y Apellido"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:textColor="@color/Color"/>
+
+            <EditText
+                android:id="@+id/MensajeIngresoNomApellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="39dp"
+                android:layout_marginTop="220dp"
+                android:layout_marginRight="40dp"
+                android:ems="20"
+                android:inputType="textPersonName"
+                android:text=""
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <!-- Nombre Colegio-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="310dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="65dp"
+                android:text="Nombre del colegio"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:textColor="@color/Color"/>
+
+            <EditText
+                android:id="@+id/MensajeIngresoNomColegio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="39dp"
+                android:layout_marginTop="330dp"
+                android:layout_marginRight="40dp"
+                android:ems="20"
+                android:inputType="textPersonName"
+                android:text=""
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <!-- No. Mesa-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="410dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="65dp"
+                android:text="Numero de mesa"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:textColor="@color/Color"/>
+
+            <EditText
+                android:id="@+id/MensajeIngresoNumMesa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="39dp"
+                android:layout_marginTop="430dp"
+                android:layout_marginRight="40dp"
+                android:ems="20"
+                android:inputType="textPersonName"
+                android:text=""
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+
+            <!-- Parte de los Btn -->
+            <!-- Btn Ing. -->
+            <Button
+                android:id="@+id/Ing"
+                android:onClick="ingresar"
+                android:text="Ingresar"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="510dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="210dp"
+                android:textColor="@color/Color4"
+                android:gravity="center"
+                android:textSize="17sp"
+                app:backgroundTint="#06283D"
+                app:cardCornerRadius="5dp"/>
+
+            <!-- Btn Cons. -->
+            <Button
+                android:id="@+id/Cons"
+                android:onClick="consul"
+                android:text="Consultar"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="510dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginRight="40dp"
+                android:textColor="@color/Color4"
+                android:gravity="center"
+                android:textSize="17sp"
+                app:backgroundTint="#06283D"
+                app:cardCornerRadius="5dp"/>
+
+            <!-- Btn Elim. -->
+            <Button
+                android:id="@+id/Elim"
+                android:onClick="eliminar"
+                android:text="Eliminar"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="570dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="210dp"
+                android:textColor="@color/Color4"
+                android:gravity="center"
+                android:textSize="17sp"
+                app:backgroundTint="#06283D"
+                app:cardCornerRadius="5dp"/>
+
+            <!-- Btn Mod. -->
+            <Button
+                android:id="@+id/Mod"
+                android:onClick="modificar"
+                android:text="Modificar"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="570dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginRight="40dp"
+                android:textColor="@color/Color4"
+                android:gravity="center"
+                android:textSize="17sp"
+                app:backgroundTint="#06283D"
+                app:cardCornerRadius="5dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
