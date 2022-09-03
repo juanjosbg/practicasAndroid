@@ -51,15 +51,14 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="160dp"
                 android:layout_marginLeft="40dp"
+                android:layout_marginTop="160dp"
                 android:layout_marginRight="40dp"
                 android:layout_marginBottom="65dp"
                 android:text="Ingrese Estatura"
                 android:textColor="#fff"
                 android:textSize="25sp"
-                android:textStyle="bold"
-                />
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/MensajeIngresoEstatura"
@@ -98,6 +97,7 @@
 
 
             <!-- Datos de Muestra -->
+
             <EditText
                 android:id="@+id/MensajEgresoIMC"
                 android:layout_width="match_parent"

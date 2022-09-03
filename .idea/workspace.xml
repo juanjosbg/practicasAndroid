@@ -9,10 +9,21 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e8dfca5-9030-4e52-9976-3f3b367cc5f7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Practicas.iml" beforeDir="false" />
+    <list default="true" id="61ac45d0-3073-45a7-ab1c-d39f89fb76f4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/AplicationExam.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/AplicationExam.app.androidTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/AplicationExam.app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/AplicationExam.app.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/AplicationExam.app.unitTest.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActividadCRUDAndroid/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ActividadCRUDAndroid/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActividadCRUDAndroid/app/src/main/java/AdminSQLiteOpenHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActividadCRUDAndroid/app/src/main/java/com/example/actividadcrud_android/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ActividadCRUDAndroid/app/src/main/java/com/example/actividadcrud_android/MainActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2DxDSD1szBRWPU6As82eKs6TpWh" />
+  <component name="ProjectId" id="2EDr6ff2BKGEYRjlPQXlondMt3t" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,11 +49,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/EjerciesInClass" />
   </component>
   <component name="RunManager">
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="AplicationExam.app.main" />
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="DesarrolloParcial.app.main" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -102,11 +112,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4e8dfca5-9030-4e52-9976-3f3b367cc5f7" name="Changes" comment="" />
-      <created>1661631840715</created>
+      <changelist id="61ac45d0-3073-45a7-ab1c-d39f89fb76f4" name="Changes" comment="" />
+      <created>1662140823205</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1661631840715</updated>
+      <updated>1662140823205</updated>
     </task>
     <servers />
   </component>

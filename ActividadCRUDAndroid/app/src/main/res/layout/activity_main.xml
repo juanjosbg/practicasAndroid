@@ -31,7 +31,7 @@
                 android:textAllCaps="true"
                 android:text="Votando por el derecho"/>
 
-            <!-- Cedula -->
+            <!-- nombre de la persona -->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -66,9 +66,9 @@
                 android:layout_marginRight="40dp"
                 android:layout_marginBottom="65dp"
                 android:text="Nombre y Apellido"
+                android:textColor="@color/Color"
                 android:textSize="26dp"
-                android:textStyle="bold"
-                android:textColor="@color/Color"/>
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/MensajeIngresoNomApellido"
