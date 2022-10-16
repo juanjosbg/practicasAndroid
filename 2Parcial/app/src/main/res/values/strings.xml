@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AplicationToParcial</string>
+    <string name="BotonSiguiente">Iniciar Sección</string>
+    <string name="BotonCerrarSeccion">Cerrar sección</string>
+
+    <string name="BotonRegistrar">Registrar Producto</string>
+    <string name="BotonBuscar">Buscar Producto</string>
+    <string name="BotonEliminar">Eliminar Producto</string>
+    <string name="BotonModificar">Modificar Producto</string>
+
+</resources>

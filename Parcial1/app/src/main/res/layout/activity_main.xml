@@ -30,12 +30,12 @@
                 android:id="@+id/textBoxCedula"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
                 android:layout_marginTop="30dp"
                 android:layout_marginRight="25dp"
                 android:layout_marginBottom="20dp"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:layout_marginLeft="5dp"/>/>
+                android:inputType="textPersonName" />/>
 
             <TextView
                 android:id="@+id/LabelNombre"
@@ -173,7 +173,11 @@
                 android:layout_marginTop="420dp"
                 android:layout_marginRight="40dp"
                 android:onClick="Ingresar"
-                android:text="Ingresar" />
+                android:text="Ingresar"
+                android:textColor="@color/Blanco"
+                android:textSize="17sp"
+                app:backgroundTint="@color/Color"
+                app:cardCornerRadius="5dp" />
 
             <Button
                 android:id="@+id/btnCalcular"
@@ -183,7 +187,11 @@
                 android:layout_marginTop="470dp"
                 android:layout_marginRight="40dp"
                 android:onClick="calcularAnemia"
-                android:text="Calcular" />
+                android:text="Calcular"
+                android:textColor="@color/Blanco"
+                android:textSize="17sp"
+                app:backgroundTint="@color/Ver"
+                app:cardCornerRadius="5dp" />
 
             <Button
                 android:id="@+id/btnConsultar"
@@ -193,7 +201,11 @@
                 android:layout_marginTop="520dp"
                 android:layout_marginRight="40dp"
                 android:onClick="consulta"
-                android:text="Consulta" />
+                android:text="Consulta"
+                android:textColor="@color/Blanco"
+                android:textSize="17sp"
+                app:backgroundTint="@color/Color6"
+                app:cardCornerRadius="5dp" />
 
             <Button
                 android:id="@+id/btnEliminar"
@@ -203,7 +215,11 @@
                 android:layout_marginTop="420dp"
                 android:layout_marginRight="40dp"
                 android:onClick="eliminar"
-                android:text="Eliminar" />
+                android:text="Eliminar"
+                android:textColor="@color/Blanco"
+                android:textSize="17sp"
+                app:backgroundTint="@color/Red"
+                app:cardCornerRadius="5dp" />
 
             <Button
                 android:id="@+id/btnModificar"
@@ -213,7 +229,27 @@
                 android:layout_marginTop="470dp"
                 android:layout_marginRight="40dp"
                 android:onClick="modificar"
-                android:text="Modificar" />
+                android:text="Modificar"
+                android:textColor="@color/Blanco"
+                android:textSize="17sp"
+                app:backgroundTint="#06283D"
+                app:cardCornerRadius="5dp" />
+
+            <!-- Respuesta -->
+            <EditText
+                android:id="@+id/respuesta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="-180dp"
+                android:layout_marginRight="50dp"
+                android:ems="20"
+                android:inputType="textPersonName"
+                android:text="Msj"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
             <!-- Ventana emergente. -->
             <!--<Button
                android:id="@+id/WinDialog"
